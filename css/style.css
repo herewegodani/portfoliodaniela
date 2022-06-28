@@ -1,0 +1,608 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 4120px;
+    margin: 0 auto;
+    min-width: 1366px;
+    
+    overflow-x: hidden;
+}
+
+main {
+    width: auto;
+}
+
+div {
+    background-color: black;
+    width: 100%;
+    height: 700px;
+    margin-top: 1024px;
+}
+
+.terceiro {
+    margin-bottom: 0;
+}
+
+h2 {
+    color: black;
+    font-family: 'Crete Round', serif;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+
+}
+
+.dois {
+    color: #403C2B;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 73px;
+    text-align: left;
+}
+
+.tres {
+    color: #626262;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+
+}
+
+.quatro {
+    color: black;
+    font-family: 'Crete Round', serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.cinco {
+    color: white;
+    font-family: 'Crete Round', serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 51px;
+
+    position: absolute;
+    left: 252px;
+    top: 1230px;
+
+}
+
+.seis {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+
+    position: absolute;
+    height: 119px;
+    width: 576px;
+    left: 130px;
+    top: 1340px;
+}
+
+.sete {
+    color: black;
+    font-family: 'Crete Round', serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: left;
+
+    margin-bottom: 56px;
+}
+
+.sete::before {
+    content: "2006-2018";
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    position: absolute;
+    bottom: 0;
+    top: 2020px;
+}
+
+.nove {
+    color: #626262;
+    font-family: 'Crete Round', serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+
+}
+
+.dez {
+    color: black;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    text-align: left;
+
+    margin-bottom: 58px;
+}
+
+.catorze {
+    color: white;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+
+    width: 500px;
+    text-decoration: none;
+}
+
+section {
+    position: absolute;
+    width: 133px;
+    height: 32px;
+    left: 128px;
+    top: 53.5px;
+}
+
+.primeiro_article {
+    width: 409px;
+    margin-top: 168px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+
+}
+
+.grupoum {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0;
+    margin-top: 14.5px;
+    gap: 30px;
+}
+
+.meninanopc {
+    position: absolute;
+    width: 993px;
+    height: 741px;
+    left: 241px;
+    top: 103px;
+}
+
+.formaum {
+    position: absolute;
+    left: 233px;
+    top: -5px;
+    z-index: -1;
+}
+
+.formadois {
+    position: absolute;
+    left: -203px;
+    top: 65px;
+    z-index: -1;
+}
+
+.formatres {
+    position: absolute;
+    left: 585px;
+    top: -64px;
+    z-index: -1;
+}
+
+.formaquatro {
+    position: absolute;
+    left: -133px;
+    top: 442px;
+    z-index: -1;
+}
+
+.formacinco {
+    position: absolute;
+    left: 1002px;
+    top: 643px;
+    z-index: -1;
+}
+
+.setasprabaixo {
+    position: absolute;
+    left: 585px;
+    top: 894px;
+}
+
+.formaseis {
+    position: absolute;
+    left: -5px;
+    top: 1024px;
+}
+
+.formasete {
+    position: absolute;
+    left: 1130px;
+    top: 1024px;
+}
+
+.formaoito {
+    position: absolute;
+    left: -5px;
+    top: 1500px;
+}
+
+.formanove {
+    position: absolute;
+    left: 356px;
+    top: 1529px;
+}
+
+.formadez {
+    position: absolute;
+    left: 1044px;
+    top: 1522px;
+}
+
+.minhafoto {
+    position: absolute;
+    left: 760px;
+    top: 1123px;
+}
+
+.sorriso {
+    position: absolute;
+    left: 585px;
+    top: 1450px;
+}
+
+.rabiscoacima {
+    position: absolute;
+    left: 205px;
+    top: 1190px;
+}
+
+.rabiscodebaixo {
+    position: absolute;
+    left: 275px;
+    top: 1275px;
+}
+
+.segundo_article {
+    margin-top: 1550px;
+    width: 700px;
+    left: 128px;
+
+}
+
+.formaonze {
+    position: absolute;
+    left: -173px;
+    top: 1403px;
+    z-index: -1;
+}
+
+.formadoze {
+    position: absolute;
+    left: 227px;
+    top: 1475px;
+    z-index: -1;
+}
+
+.formatreze {
+    position: absolute;
+    left: 916px;
+    top: 1468px;
+    z-index: -1;
+}
+
+.formacatorze {
+    position: absolute;
+    left: -173px;
+    top: 2403px;
+    z-index: -1;
+}
+
+.formaquinze {
+    position: absolute;
+    left: -30px;
+    top: 2385px;
+}
+
+.formadezesseis {
+    position: absolute;
+    left: 525px;
+    top: 2483px;
+    z-index: -1;
+}
+
+.formadezessete {
+    position: absolute;
+    left: 758px;
+    top: 2180px;
+    z-index: -1;
+}
+
+.meninanopc2 {
+    position: absolute;
+    left: 394px;
+    top: 2000px;
+}
+
+.formadezoito {
+    position: absolute;
+    left: -35px;
+    top: 2748px;
+}
+
+.formadezenove {
+    position: absolute;
+    left: 350px;
+    top: 2820px;
+}
+
+.formavinte {
+    position: absolute;
+    left: 653px;
+    top: 2748px;
+}
+
+.formavinteeum {
+    position: absolute;
+    left: 886px;
+    top: 2748px;
+}
+
+.formavinteedois {
+    position: absolute;
+    left: -35px;
+    top: 3181px;
+}
+
+.formavinteetres {
+    position: absolute;
+    left: 800px;
+    top: 3287px;
+}
+
+.grupodois {
+    position: absolute;
+    width: 1230px;
+    height: 400px;
+    top: 2870px;
+    left: 100px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    gap: 50px;
+    scrollbar-width: none;
+
+}
+
+.grupodois ::-webkit-scrollbar {
+    display: none;
+}
+
+.meninalendo {
+    position: absolute;
+    left: 334px;
+    top: 3725px;
+}
+
+.formavinteequatro {
+    position: absolute;
+    left: -180px;
+    top: 3184px;
+    z-index: -1;
+}
+
+.formavinteecinco {
+    position: absolute;
+    left: 672px;
+    top: 3235px;
+    z-index: -1;
+}
+
+.formavinteeseis {
+    position: absolute;
+    left: -145px;
+    top: 3891px;
+    z-index: -1;
+}
+
+.formavinteesete {
+    position: absolute;
+    left: 920px;
+    top: 4150px;
+    z-index: -1;
+}
+
+.setadireita {
+    position: absolute;
+    left: 570px;
+    top: 3335px;
+
+}
+
+.terceiro_article {
+    position: absolute;
+    width: 461px;
+    height: 48px;
+    left: 58px;
+    top: 3597px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.borderblack {
+    box-sizing: border-box;
+    position: absolute;
+    width: 410px;
+    height: 42px;
+    border: 3px dashed #000000;
+    border-radius: 10px;
+    padding-left: 18px;
+}
+
+label {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    padding-right: 14px;
+
+}
+
+::placeholder {
+    color: #626262;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.decaixa {
+    margin-bottom: 12px;
+}
+
+.assunto {
+    box-sizing: border-box;
+    position: absolute;
+    width: 347px;
+    height: 42px;
+    border: 3px dashed #000000;
+    border-radius: 10px;
+    padding-left: 18px;
+}
+
+.assuntocaixa {
+    margin-bottom: 12px;
+}
+
+.caixa {
+    box-sizing: border-box;
+    position: absolute;
+    width: 461px;
+    height: 193px;
+    left: 0px;
+    border: 3px dashed #000000;
+    border-radius: 10px;
+
+}
+
+.enviar {
+    position: absolute;
+    width: 168px;
+    height: 58px;
+
+    background: #F36A8D;
+    border-radius: 14.7px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+
+    border: none;
+
+    margin-top: 175px;
+    margin-left: -13px;
+}
+
+.texto_terceiro {
+    margin-left: 242px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+
+    position: absolute;
+    width: 385px;
+    height: 168px;
+    left: 80px;
+    top: 4730px;
+}
+
+.texto_quarto {
+    margin-left: 242px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+
+    position: absolute;
+    width: 385px;
+    height: 168px;
+    left: 500px;
+    top: 4950px;
+}
+
+.formavinteeoito {
+    position: absolute;
+    left: -20px;
+    top: 4472px;
+
+}
+
+.formavinteenove {
+    position: absolute;
+    left: 1048px;
+    top: 4472px;
+}
+
+.formatrinta {
+    position: absolute;
+    left: 1px;
+    top: 4928px;
+}
+
+.formatrintaeum {
+    position: absolute;
+    left: 1140px;
+    top: 5048px;
+}
+
+.minhaplaylist {
+    position: absolute;
+    left: 850px;
+    top: 4550px;
+    z-index: 2;
+}
+
+.spotifylogo {
+    position: absolute;
+    left: 1215px;
+    top: 4579px;
+    z-index: 3;
+    border: none;
+    background-color: white;
+}
+
+.formatrintaedois {
+    position: absolute;
+    left: 1195px;
+    top: 4920px;
+}
+
+.primeiro{
+    
+}
